@@ -1,0 +1,28 @@
+# robots.txt for Complete Vastu Solution
+
+# Allow all crawlers full access
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.completevastu.com/sitemap.xml
+
+# Block admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow specific file types
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.ico$
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.woff$
+Allow: /*.woff2$
+Allow: /*.ttf$
+Allow: /*.eot$

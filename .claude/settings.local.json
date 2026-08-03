@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(PORT=3002 timeout 10 npm run dev)",
+      "Bash(npm run *)",
+      "Bash(npx eslint *)",
+      "Bash(npx next *)"
+    ]
+  }
+}
