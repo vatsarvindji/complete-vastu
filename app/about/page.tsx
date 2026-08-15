@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link';
+import Image from "next/image";
 import { Users, Briefcase, Brain, ShieldCheck, Clock, MapPin, Heart, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -14,9 +15,18 @@ export default function About() {
               <h1 className="text-4xl font-bold text-gray-900">
                 About Dr. Arvind Vats
               </h1>
+              <div className="relative mt-8 w-full h-[100vh] min-h-[500px] max-h-[800px] overflow-hidden rounded-3xl shadow-2xl">
+                <Image
+                  src="/expert2.png"
+                  alt="Dr. Arvind Vats"
+                  fill
+                  priority
+                  className="object-cover object-top"
+                />
+              </div>
               <p className="text-lg text-gray-600">
                 With over 20 years of dedicated practice and more than 20,000 successful consultations,
-                Dr. Arvind Vats has established himself as one of India's most trusted Vastu consultants.
+                Dr. Arvind Vats has established himself as one of India&apos;s most trusted Vastu consultants.
                 His approach combines traditional Vastu Shastra wisdom with practical, scientific applications
                 suitable for modern living and working spaces.
               </p>
@@ -230,7 +240,7 @@ export default function About() {
                     {/* Testimonial 1 */}
                     <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300">
                       <p className="text-gray-600 italic mb-4">
-                        "After consulting Dr. Arvind Vats for our office space, we saw a 40% increase in productivity within three months. His recommendations were practical and easy to implement."
+                        &ldquo;After consulting Dr. Arvind Vats for our office space, we saw a 40% increase in productivity within three months. His recommendations were practical and easy to implement.&rdquo;
                       </p>
                       <div className="flex items-start space-x-3">
                         <Users className="h-4 w-4 text-green-600 mt-0.5" />
@@ -244,7 +254,7 @@ export default function About() {
                     {/* Testimonial 2 */}
                     <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300">
                       <p className="text-gray-600 italic mb-4">
-                        "We were facing constant health issues in our new home. Dr. Vats identified the Vastu defects and suggested simple remedies. Within weeks, our health improved significantly."
+                        &ldquo;We were facing constant health issues in our new home. Dr. Vats identified the Vastu defects and suggested simple remedies. Within weeks, our health improved significantly.&rdquo;
                       </p>
                       <div className="flex items-start space-x-3">
                         <Users className="h-4 w-4 text-green-600 mt-0.5" />
@@ -258,7 +268,7 @@ export default function About() {
                     {/* Testimonial 3 */}
                     <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300">
                       <p className="text-gray-600 italic mb-4">
-                        "Our retail shop was struggling with sales. After following Dr. Vats' Vastu recommendations for layout and cash counter placement, our sales increased by 60%."
+                        &ldquo;Our retail shop was struggling with sales. After following Dr. Vats&apos;s Vastu recommendations for layout and cash counter placement, our sales increased by 60%.&rdquo;
                       </p>
                       <div className="flex items-start space-x-3">
                         <Users className="h-4 w-4 text-green-600 mt-0.5" />

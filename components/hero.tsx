@@ -36,7 +36,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <img
-                src="/hero-image.png"
+                src="/villa.jpg"
                 alt="Expert Vastu consultant analyzing a property layout"
                 className="rounded-2xl shadow-xl w-full h-auto"
               />

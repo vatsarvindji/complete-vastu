@@ -23,7 +23,7 @@ export default function Terms() {
               Introduction
             </h2>
             <p>
-              Welcome to Complete Vastu Solution. These terms and conditions outline the rules and regulations for the use of Complete Vastu Solution's Website, located at www.completevastu.com.
+              Welcome to Complete Vastu Solution. These terms and conditions outline the rules and regulations for the use of Complete Vastu Solution&apos;s Website, located at www.completevastu.com.
             </p>
             <p>
               By accessing this website we assume you accept these terms and conditions. Do not continue to use Complete Vastu Solution if you do not agree to take all of the terms and conditions stated on this page.
@@ -31,7 +31,7 @@ export default function Terms() {
 
             <h2 className="text-xl font-bold text-gray-900 mb-4">1. Definitions</h2>
             <p>
-              The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company's terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client's needs in respect of provision of the Company's stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.
+              The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: &ldquo;Client&rdquo;, &ldquo;You&rdquo; and &ldquo;Your&rdquo; refers to you, the person log on this website and compliant to the Company&rsquo;s terms and conditions. &ldquo;The Company&rdquo;, &ldquo;Ourselves&rdquo;, &ldquo;We&rdquo;, &ldquo;Our&rdquo; and &ldquo;Us&rdquo;, refers to our Company. &ldquo;Party&rdquo;, &ldquo;Parties&rdquo;, or &ldquo;Us&rdquo;, refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client&rsquo;s needs in respect of provision of the Company&rsquo;s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.
             </p>
 
             <h2 className="text-xl font-bold text-gray-900 mb-4">2. Intellectual Property Rights</h2>
@@ -46,7 +46,7 @@ export default function Terms() {
 
             <h2 className="text-xl font-bold text-gray-900 mb-4">4. Comments</h2>
             <p>
-              This Agreement shall begin on the date hereof. Certain parts of this website offer the opportunity for users to post and exchange opinions, information, material and data ('Comments') in areas of the website. Complete Vastu Solution does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Complete Vastu Solution,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Complete Vastu Solution shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.
+              This Agreement shall begin on the date hereof. Certain parts of this website offer the opportunity for users to post and exchange opinions, information, material and data (&lsquo;Comments&rsquo;) in areas of the website. Complete Vastu Solution does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Complete Vastu Solution,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Complete Vastu Solution shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.
             </p>
             <p>
               Complete Vastu Solution reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.
@@ -54,7 +54,7 @@ export default function Terms() {
 
             <h2 className="text-xl font-bold text-gray-900 mb-4">5. Limitation of Liability</h2>
             <p>
-              In no event shall Complete Vastu Solution, nor its officers, directors and employees, be liable for any damages whatsoever (including, without limitation, damages for loss of profits, business interruption, loss of information) arising out of the use of or inability to use Complete Vastu Solution's materials, even if Complete Vastu Solution has been advised of the possibility of such damages.
+              In no event shall Complete Vastu Solution, nor its officers, directors and employees, be liable for any damages whatsoever (including, without limitation, damages for loss of profits, business interruption, loss of information) arising out of the use of or inability to use Complete Vastu Solution&apos;s materials, even if Complete Vastu Solution has been advised of the possibility of such damages.
             </p>
 
             <h2 className="text-xl font-bold text-gray-900 mb-4">6. Indemnification</h2>

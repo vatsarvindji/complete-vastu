@@ -1,3 +1,5 @@
+'use client';
+
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
@@ -18,7 +20,7 @@ export default function ContactSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-200px 0px -100px 0px' }}
+          viewport={{ once: true, margin: "-200px 0px -100px 0px" }}
           transition={{ duration: 0.8 }}
         >
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -135,7 +137,7 @@ export default function ContactSection() {
                     Message (Optional)
                   </label>
                   <textarea
-                    rows="4"
+                    rows={4}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                     placeholder="Tell us more about your requirements..."
                   />
@@ -150,24 +152,144 @@ export default function ContactSection() {
               </form>
             </div>
 
-            {/* Quick Consultation */}
+            {/* Online Booking Form */}
             <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
               <h3 className="mb-6 text-2xl font-bold text-gray-900">
-                Book a Consultation
+                Book Your Consultation Online
               </h3>
               <p className="mb-6 text-gray-600">
                 Schedule your personalized Vastu consultation with Dr. Arvind Vats
               </p>
-              <Link
-                href="/contact"
-                className="w-full bg-green-800 hover:bg-green-900 text-white font-medium py-3 px-6 rounded-lg flex items-center justify-center gap-3 transition-colors duration-200 hover:scale-105 motion-safe:hover:scale-105"
-              >
-                <Phone className="h-5 w-5" />
-                <span>Book Your Consultation Now</span>
-              </Link>
-              <p className="mt-4 text-xs text-gray-500">
-                Available for both online and on-site consultations
-              </p>
+              <form className="space-y-6">
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Full Name
+                    </label>
+                    <input
+                      type="text"
+                      required
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                      placeholder="Enter your full name"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Email Address
+                    </label>
+                    <input
+                      type="email"
+                      required
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Phone Number
+                  </label>
+                  <input
+                    type="tel"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    placeholder="Enter your phone number"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Consultation Type
+                  </label>
+                  <select
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  >
+                    <option value="">Select Consultation Type</option>
+                    <option value="residential">Residential Vastu</option>
+                    <option value="commercial">Commercial Vastu</option>
+                    <option value="industrial">Industrial Vastu</option>
+                    <option value="property-selection">Plot/Land Selection</option>
+                    <option value="remedies">Non-demolition Remedies</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Preferred Date
+                    </label>
+                    <input
+                      type="date"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Preferred Time
+                    </label>
+                    <select
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    >
+                      <option value="">Select Time</option>
+                      <option value="morning">9:00 AM - 12:00 PM</option>
+                      <option value="afternoon">12:00 PM - 4:00 PM</option>
+                      <option value="evening">4:00 PM - 7:00 PM</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Consultation Mode
+                  </label>
+                  <div className="flex items-center space-x-3">
+                    <div className="flex items-center space-x-2">
+                      <input
+                        type="radio"
+                        id="online"
+                        name="consultationMode"
+                        value="online"
+                        defaultChecked
+                        className="h-4 w-4 text-green-600 focus:ring-green-500"
+                      />
+                      <label className="text-sm font-medium text-gray-700" htmlFor="online">
+                        Online Consultation
+                      </label>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <input
+                        type="radio"
+                        id="onsite"
+                        name="consultationMode"
+                        value="onsite"
+                        className="h-4 w-4 text-green-600 focus:ring-green-500"
+                      />
+                      <label className="text-sm font-medium text-gray-700" htmlFor="onsite">
+                        On-Site Consultation
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Message (Optional)
+                  </label>
+                  <textarea
+                    rows={4}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    placeholder="Tell us more about your requirements..."
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  className="w-full bg-green-800 hover:bg-green-900 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200 hover:scale-105 motion-safe:hover:scale-105"
+                >
+                  Book Consultation
+                </button>
+              </form>
             </div>
           </div>
         </motion.div>

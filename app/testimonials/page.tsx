@@ -136,7 +136,7 @@ export default function Testimonials() {
                     </div>
                   </div>
                   <p className="text-gray-600 italic mb-6">
-                    "{testimonial.comment}"
+                    &ldquo;{testimonial.comment}&rdquo;
                   </p>
                   <div className="flex items-center space-x-3 text-sm">
                     <CheckCircle className="h-4 w-4 text-green-600" />

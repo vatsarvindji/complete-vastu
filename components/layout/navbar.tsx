@@ -10,9 +10,9 @@ export default function Navbar() {
   return (
     <nav className="bg-white border-b border-gray-200 px-6 py-4 sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between">
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-3 mr-6">
           <Link href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-green-800">Complete Vastu Solution</span>
+            <span className="text-2xl font-bold text-green-800">Royal Vastu</span>
           </Link>
         </div>
         <div className="hidden md:block md:flex-1 md:justify-center">

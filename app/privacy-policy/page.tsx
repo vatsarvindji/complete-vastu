@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
 
             <h2 className="text-xl font-bold text-gray-900 mb-4">1. Data Controller</h2>
             <p>
-              Complete Vastu Solution ("we", "us", or "our") is the data controller and responsible for
+              Complete Vastu Solution (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) is the data controller and responsible for
   your personal data.
             </p>
 

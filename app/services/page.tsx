@@ -33,7 +33,7 @@ export default function Services() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-200px 0px -100px 0px' }}
+            viewport={{ once: true, margin: "-200px 0px -100px 0px" }}
             transition={{ duration: 0.8 }}
           >
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -256,7 +256,7 @@ export default function Services() {
                   entrance directions, and energy flow without requiring major structural changes.
                 </p>
                 <p className="mb-6 text-gray-600">
-                  Whether you're building a new home, renovating an existing space, or seeking to improve
+                  Whether you&rsquo;re building a new home, renovating an existing space, or seeking to improve
                   your current living situation, our residential Vastu services can help create a more
                   balanced and positive home environment.
                 </p>

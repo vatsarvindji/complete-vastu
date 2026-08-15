@@ -11,13 +11,13 @@ export default function AboutDoctor() {
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: '-200px 0px -100px 0px' }}
+            viewport={{ once: true, margin: "-200px 0px -100px 0px" }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <div className="relative h-80 w-full">
               <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-green-100 rounded-xl -z-10" />
               <img
-                src="/about-doctor.jpg"
+                src="/expert.png"
                 alt="Dr. Arvind Vats - Expert Vastu Consultant"
                 className="rounded-xl shadow-xl w-full h-full object-cover"
               />
@@ -28,7 +28,7 @@ export default function AboutDoctor() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-200px 0px -100px 0px' }}
+            viewport={{ once: true, margin: "-200px 0px -100px 0px" }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <div className="space-y-6">
@@ -36,7 +36,7 @@ export default function AboutDoctor() {
                 Dr. Arvind Vats - Your Trusted Vastu Expert
               </h2>
               <p className="text-gray-600 mb-6">
-                With over 20 years of dedicated practice and more than 20,000 successful consultations, Dr. Arvind Vats has established himself as one of India's most trusted Vastu consultants. His approach combines traditional Vastu Shastra wisdom with practical, scientific applications suitable for modern living and working spaces.
+                With over 20 years of dedicated practice and more than 20,000 successful consultations, Dr. Arvind Vats has established himself as one of India&apos;s most trusted Vastu consultants. His approach combines traditional Vastu Shastra wisdom with practical, scientific applications suitable for modern living and working spaces.
               </p>
 
               <div className="space-y-4">

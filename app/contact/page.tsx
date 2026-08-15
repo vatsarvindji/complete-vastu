@@ -15,7 +15,7 @@ export default function Contact() {
             </h1>
             <p className="text-lg text-gray-600">
               Get in touch with Dr. Arvind Vats for expert Vastu consultation.
-              We're here to help you create harmonious living and working spaces.
+              We&rsquo;re here to help you create harmonious living and working spaces.
             </p>
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function Contact() {
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, margin: '-200px 0px -100px 0px' }}
+              viewport={{ once: true, margin: "-200px 0px -100px 0px" }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <div className="space-y-6">
@@ -89,7 +89,7 @@ export default function Contact() {
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, margin: '-200px 0px -100px 0px' }}
+              viewport={{ once: true, margin: "-200px 0px -100px 0px" }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
@@ -97,7 +97,7 @@ export default function Contact() {
                   Send Us a Message
                 </h2>
                 <p className="mb-6 text-gray-600">
-                  We'll respond to your inquiry within 24 hours.
+                  We&rsquo;ll respond to your inquiry within 24 hours.
                 </p>
                 <form className="space-y-6">
                   <div className="grid grid-cols-2 gap-4">
@@ -178,7 +178,7 @@ export default function Contact() {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-200px 0px -100px 0px' }}
+              viewport={{ once: true, margin: "-200px 0px -100px 0px" }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-100">

@@ -11,6 +11,8 @@ import AboutDoctor from '../components/about-doctor';
 import Testimonials from '../components/testimonials';
 import FAQ from '../components/faq';
 import ContactSection from '../components/contact-section';
+import BlogSection from '../components/blog-section';
+import CertificationsAwardsSection from '../components/certifications-awards';
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
       <ConsultationProcess />
       <AboutDoctor />
       <Testimonials />
+      <BlogSection />
+      <CertificationsAwardsSection />
       <FAQ />
       <ContactSection />
     </>
